@@ -10,12 +10,24 @@ import TipKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color
+                .gray
+                .opacity(0.5)
+                .ignoresSafeArea()
+            
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                    .padding()
+                Text("Hello, world!")
+                    .foregroundStyle(.white)
+                    .padding()
+                    .background(.black)
+                    .cornerRadius(20)
+            }
+            .padding()
         }
-        .padding()
     }
 }
