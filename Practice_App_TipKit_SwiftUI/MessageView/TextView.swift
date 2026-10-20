@@ -1,10 +1,3 @@
-//
-//  TextView.swift
-//  Practice_App_TipKit_SwiftUI
-//
-//  Created by Ansari Amir Alam Nisar Ahmad on 17/10/26.
-//
-
 import SwiftUI
 
 struct TextView: View {

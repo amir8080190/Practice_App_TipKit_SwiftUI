@@ -35,7 +35,3 @@ struct messagesView: View {
         )
     }
 }
-
-#Preview {
-    messagesView()
-}
