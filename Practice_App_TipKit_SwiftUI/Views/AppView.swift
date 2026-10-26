@@ -1,12 +1,9 @@
 import SwiftUI
-import TipKit
 
-struct ContentView: View {
+struct AppView: View {
     var body: some View {
         ZStack {
-            Color
-                .black
-                .opacity(0.2)
+            Color("BackGroundColour_2")
                 .ignoresSafeArea()
             
             VStack(alignment: .leading) {
